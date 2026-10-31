@@ -1,29 +1,30 @@
-# Proyek Analisis Data - [Nama Dataset / Topik Proyek]
+# Proyek Analisis Data - Bike Sharing Dataset
 
 Proyek ini merupakan bagian dari submission akhir untuk kursus **Belajar Analisis Data dengan Python** di Dicoding. Proyek ini bertujuan untuk melakukan analisis data eksploratif (EDA) dan membangun dashboard interaktif menggunakan Streamlit.
 
 ## Link Live Dashboard
 Aplikasi dashboard interaktif dapat diakses melalui tautan berikut:
-- **Streamlit App:** [Masukkan URL Streamlit Community Cloud Anda di sini]
+- **Streamlit App:** https://pad-dicoding-c3pejk8bpn6p4kxvqcdcuy.streamlit.app/
 
 ---
 
 ## Deskripsi Proyek
-Proyek ini menganalisis dataset **[Nama Dataset]** untuk menjawab beberapa pertanyaan bisnis utama:
-1. **Pertanyaan 1:** [Tuliskan pertanyaan bisnis pertama Anda]
-2. **Pertanyaan 2:** [Tuliskan pertanyaan bisnis kedua Anda]
+Proyek ini menganalisis dataset **Bike Sharing Dataset** untuk menjawab beberapa pertanyaan bisnis utama:
+1. **Pertanyaan Bisnis 1:** Bagaimana pengaruh kombinasi musim (season) dan kondisi cuaca (weathersit) terhadap rata-rata jumlah penyewaan harian oleh pengguna terdaftar (registered)?
+2. **Pertanyaan Bisnis 2:** Bagaimana perbedaan pola rata-rata penyewaan sepeda (cnt) per jam (hr) antara hari kerja (workingday) dan hari non-kerja (non-workingday)?
 
 ---
 
 ## Struktur Direktori
 ```text
 .
-├── dashboard/
+submission
+├── dashboard
 │   ├── dashboard.py
 │   └── main_data.csv
-├── data/
-│   ├── [file_data_1].csv
-│   └── [file_data_2].csv
+├── data
+│   ├── data_1.csv
+│   └── data_2.csv
 ├── notebook.ipynb
 ├── README.md
 ├── requirements.txt
@@ -39,8 +40,8 @@ Pastikan Anda telah menginstal **Python 3.8+** di perangkat Anda.
 
 ### 2. Clone atau Unduh Repositori
 ```bash
-git clone https://github.com/[username-anda]/[nama-repo].git
-cd [nama-repo]
+git clone https://github.com/Rambutanku/pad-dicoding.git
+cd pad-dicoding
 ```
 
 ### 3. Buat dan Aktifkan Virtual Environment (Opsional tetapi Disarankan)
