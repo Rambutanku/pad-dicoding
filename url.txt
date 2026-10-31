@@ -1,1 +1,1 @@
-https://[nama-aplikasi-anda].streamlit.app/
+https://pad-dicoding-c3pejk8bpn6p4kxvqcdcuy.streamlit.app/
